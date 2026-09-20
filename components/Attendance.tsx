@@ -7,7 +7,7 @@ export default function Attendance() {
       <div className="container">
         <div className={styles.heading}>
           <span className="eyebrow">Atendimento</span>
-          <h2>Como você prefere ser atendido(a)</h2>
+          <h2>Como ficar melhor pra você!</h2>
         </div>
 
         <div className={styles.grid}>

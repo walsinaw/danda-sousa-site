@@ -41,7 +41,7 @@ export default function About() {
 
           <div>
             <a href="#processo" className="btn btn--rose">
-              Conheça minha trajetória
+              Conheça nossa trajetória
             </a>
           </div>
         </div>

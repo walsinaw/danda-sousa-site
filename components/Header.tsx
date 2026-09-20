@@ -16,7 +16,9 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className={styles.header}>
+    <>
+      {open && <div className={styles.overlay} onClick={() => setOpen(false)} />}
+      <header className={styles.header}>
       <div className={`container ${styles.inner}`}>
         <a href="#topo" className={styles.logo}>
           <Image
@@ -54,6 +56,7 @@ export default function Header() {
           <span />
         </button>
       </div>
-    </header>
+      </header>
+    </>
   );
 }

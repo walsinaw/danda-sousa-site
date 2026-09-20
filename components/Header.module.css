@@ -41,10 +41,11 @@
 .nav a:not(:global(.btn)) {
   color: var(--navy);
   opacity: 0.8;
-  transition: opacity 0.2s ease;
+  transition: color 0.2s ease, opacity 0.2s ease;
 }
 
 .nav a:not(:global(.btn)):hover {
+  color: var(--rose);
   opacity: 1;
 }
 
@@ -64,6 +65,16 @@
 }
 
 @media (max-width: 860px) {
+  .inner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .logoImg {
+    width: 60px;
+    height: 40px;
+  }
+
   .nav {
     position: absolute;
     top: 100%;
@@ -76,6 +87,8 @@
     padding: 28px 24px 34px;
     border-bottom: 1px solid rgba(35, 53, 77, 0.08);
     display: none;
+    font-size: 0.95rem;
+    z-index: 41;
   }
 
   .navOpen {
@@ -84,5 +97,13 @@
 
   .toggle {
     display: flex;
+  }
+
+  .overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(35, 53, 77, 0.55);
+    backdrop-filter: blur(6px);
+    z-index: 40;
   }
 }
