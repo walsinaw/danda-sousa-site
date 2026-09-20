@@ -22,8 +22,8 @@ export default function Header() {
           <Image
             src="/images/logo.png"
             alt=""
-            width={60}
-            height={40}
+            width={48}
+            height={32}
             className={styles.logoImg}
           />
           Dândala Sousa

@@ -44,4 +44,8 @@
   .copy p {
     max-width: 100%;
   }
+
+  .photo {
+    display: none;
+  }
 }
