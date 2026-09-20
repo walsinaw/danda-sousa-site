@@ -1,0 +1,43 @@
+.hero {
+  padding: 70px 0 100px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.copy p {
+  margin: 22px 0 30px;
+  max-width: 480px;
+  opacity: 0.85;
+}
+
+.cue {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 1.3rem;
+  color: var(--teal);
+  margin-bottom: 22px !important;
+  display: block;
+}
+
+.photo {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .copy p {
+    max-width: 100%;
+  }
+}

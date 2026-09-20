@@ -1,0 +1,42 @@
+.grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.copy p {
+  margin-bottom: 18px;
+  opacity: 0.85;
+}
+
+.greeting {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 1.4rem;
+  color: var(--teal);
+  margin-bottom: 6px !important;
+  display: block;
+}
+
+.copy h2 {
+  margin-bottom: 24px;
+}
+
+.crp {
+  display: inline-block;
+  margin: 8px 0 28px;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  padding: 8px 18px;
+  border-radius: 100px;
+  background-color: var(--teal-light);
+  color: var(--teal);
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
