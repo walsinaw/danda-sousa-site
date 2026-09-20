@@ -31,7 +31,15 @@ export default function Footer() {
         <div className={styles.bottom}>
           <span>© 2026 Dândala Sousa. Todos os direitos reservados.</span>
           <span className={styles.made}>
-            Feito por <span className={styles.madeBadge}>WAW</span>
+            Feito por
+            <a
+              href="https://www.instagram.com/wawstudio.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/images/waw.png" alt="WAW" className={styles.madeLogo} />
+            </a>
           </span>
         </div>
       </div>

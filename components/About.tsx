@@ -1,11 +1,18 @@
-import PhotoPlaceholder from "./PhotoPlaceholder";
+import Image from "next/image";
 import styles from "./About.module.css";
 
 export default function About() {
   return (
     <section id="sobre" className="section section--alt">
       <div className={`container ${styles.grid}`}>
-        <PhotoPlaceholder label="Foto · Sobre mim" aspectRatio="4 / 5" />
+        <div className={styles.photo}>
+          <Image
+            src="/images/about.jpeg"
+            alt="Dândala Sousa"
+            fill
+            style={{ objectFit: "cover" }}
+          />
+        </div>
 
         <div className={styles.copy}>
           <span className="eyebrow">Sobre mim</span>

@@ -17,9 +17,14 @@
   overflow: hidden;
 }
 
+.photo {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+}
+
 .image {
-  border-radius: 0;
-  border-width: 0 0 1px 0;
+  border-bottom: 1px solid rgba(35, 53, 77, 0.1);
 }
 
 .cardBody {

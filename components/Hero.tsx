@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./Hero.module.css";
 
 export default function Hero() {
@@ -7,7 +6,7 @@ export default function Hero() {
       <div className={`container ${styles.grid}`}>
         <div className={styles.copy}>
           <span className="eyebrow">Psicoterapia online e presencial</span>
-          <h1>Um espaço para você se escutar.</h1>
+          <h1>Um espaço para você se auto conhecer.</h1>
           <p>
             Nem sempre é fácil entender o que sentimos, muito menos colocar
             tudo em palavras.
@@ -24,13 +23,8 @@ export default function Hero() {
         </div>
 
         <div className={styles.photo}>
-          <Image
-            src="/images/hero.webp"
-            alt="Dândala Sousa, psicóloga"
-            fill
-            style={{ objectFit: "cover" }}
-            priority
-          />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/logo.png" alt="Dândala Sousa, psicóloga" />
         </div>
       </div>
     </section>

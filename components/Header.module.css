@@ -16,10 +16,19 @@
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   font-family: var(--font-heading);
   font-size: 1.35rem;
   color: var(--navy);
   letter-spacing: 0.02em;
+}
+
+.logoImg {
+  width: 60px;
+  height: 40px;
+  object-fit: contain;
 }
 
 .nav {

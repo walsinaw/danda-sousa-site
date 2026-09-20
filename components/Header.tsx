@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import styles from "./Header.module.css";
 
 const links = [
@@ -18,6 +19,13 @@ export default function Header() {
     <header className={styles.header}>
       <div className={`container ${styles.inner}`}>
         <a href="#topo" className={styles.logo}>
+          <Image
+            src="/images/logo.png"
+            alt=""
+            width={60}
+            height={40}
+            className={styles.logoImg}
+          />
           Dândala Sousa
         </a>
 

@@ -1,4 +1,4 @@
-import PhotoPlaceholder from "./PhotoPlaceholder";
+import Image from "next/image";
 import styles from "./Attendance.module.css";
 
 export default function Attendance() {
@@ -12,11 +12,14 @@ export default function Attendance() {
 
         <div className={styles.grid}>
           <div className={styles.card}>
-            <PhotoPlaceholder
-              label="Foto · Atendimento online"
-              aspectRatio="16 / 10"
-              className={styles.image}
-            />
+            <div className={`${styles.photo} ${styles.image}`}>
+              <Image
+                src="/images/online.jpg"
+                alt="Atendimento online"
+                fill
+                style={{ objectFit: "cover" }}
+              />
+            </div>
             <div className={styles.cardBody}>
               <span className={styles.tag}>Online</span>
               <h3>Online</h3>
@@ -29,11 +32,14 @@ export default function Attendance() {
           </div>
 
           <div className={styles.card}>
-            <PhotoPlaceholder
-              label="Foto · Atendimento presencial"
-              aspectRatio="16 / 10"
-              className={styles.image}
-            />
+            <div className={`${styles.photo} ${styles.image}`}>
+              <Image
+                src="/images/presencial.jpg"
+                alt="Atendimento presencial"
+                fill
+                style={{ objectFit: "cover" }}
+              />
+            </div>
             <div className={styles.cardBody}>
               <span className={styles.tag}>Presencial</span>
               <h3>Presencial</h3>

@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   title: "Dândala Sousa | Psicóloga",
   description:
     "Psicoterapia online e presencial com Dândala Sousa. Um espaço para você se escutar, compreender suas emoções e se relacionar melhor consigo e com o mundo.",
+  icons: {
+    icon: "/images/logonavegador.png",
+  },
 };
 
 export default function RootLayout({

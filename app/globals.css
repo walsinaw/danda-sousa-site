@@ -167,35 +167,6 @@ p {
   background-color: var(--rose);
 }
 
-/* Photo placeholder — blank on purpose so photos can be dropped in later */
-.photo-placeholder {
-  position: relative;
-  width: 100%;
-  border-radius: 24px;
-  background: repeating-linear-gradient(
-    135deg,
-    rgba(35, 53, 77, 0.05),
-    rgba(35, 53, 77, 0.05) 12px,
-    rgba(35, 53, 77, 0.09) 12px,
-    rgba(35, 53, 77, 0.09) 24px
-  );
-  border: 1.5px dashed rgba(35, 53, 77, 0.3);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.photo-placeholder__label {
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: rgba(35, 53, 77, 0.55);
-  text-align: center;
-  padding: 12px 20px;
-}
-
 .text-center {
   text-align: center;
 }
