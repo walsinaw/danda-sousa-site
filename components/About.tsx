@@ -16,25 +16,19 @@ export default function About() {
 
         <div className={styles.copy}>
           <span className="eyebrow">Sobre mim</span>
-          <span className={styles.greeting}>Olá, eu sou Danda.</span>
+          <span className={styles.greeting}>Oi, eu sou a Danda!</span>
           <h2>
-            Sou psicóloga analítica e acredito que cada pessoa possui uma
-            história que merece ser escutada com cuidado.
+            Sou psicóloga e trabalho com a Psicologia Analítica.
           </h2>
+          <p>Acredito que cada pessoa possui uma história que merece ser escutada com cuidado, respeito e acolhimento.</p>
           <p>
-            Na minha prática clínica, busco construir um espaço seguro e
-            livre de julgamentos, onde você possa falar sobre aquilo que
-            muitas vezes é difícil compartilhar em outros lugares.
+            Na minha prática, busco oferecer um espaço onde você possa falar sobre suas experiências, emoções e questões de forma individualizada, respeitando seu tempo e aquilo que faz sentido para você.
           </p>
           <p>
-            Minha atuação é baseada em [ABORDAGEM], unindo conhecimento
-            técnico, ética profissional e uma escuta atenta à singularidade
-            de cada pessoa.
+            A Psicologia Analítica, também conhecida como Psicologia Junguiana, busca compreender não apenas o que vivemos no presente, mas também os significados por trás das nossas experiências e emoções.
           </p>
           <p>
-            Mais do que oferecer respostas prontas, meu objetivo é caminhar
-            ao seu lado durante o processo de compreender o que você está
-            vivendo.
+            E, é claro, sou humana assim como você. Por isso, também busco trazer leveza para as nossas sessões.
           </p>
 
           <span className={styles.crp}>CRP 05/84568</span>

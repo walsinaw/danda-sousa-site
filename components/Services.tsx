@@ -2,24 +2,24 @@ import styles from "./Services.module.css";
 
 const services = [
   {
-    title: "Ansiedade",
-    text: "Para momentos em que a preocupação, os pensamentos acelerados ou a sensação de alerta começam a ocupar espaço demais na sua rotina.",
+    title: "Autoconhecimento",
+    text: "Um espaço para compreender melhor quem você é, suas experiências, emoções e a forma como se relaciona consigo mesma.",
   },
   {
-    title: "Autoestima e autoconhecimento",
-    text: "Para compreender melhor quem você é, reconhecer suas necessidades e construir uma relação mais saudável consigo mesma.",
+    title: "Emoções",
+    text: "Um olhar cuidadoso para compreender o que suas emoções podem estar expressando e os significados presentes em suas experiências.",
   },
   {
-    title: "Relacionamentos",
-    text: "Para olhar para padrões, conflitos, inseguranças e dificuldades que aparecem nas relações afetivas, familiares ou sociais.",
+    title: "História pessoal",
+    text: "Compreender sua história e olhar para suas raízes pode ajudar a perceber aspectos que fazem parte da forma como você vive e se relaciona hoje.",
   },
   {
-    title: "Sobrecarga emocional",
-    text: "Quando parece que você precisa dar conta de tudo e não encontra espaço para simplesmente respirar.",
+    title: "Momentos de mudança",
+    text: "Mudanças e novas fases podem despertar dúvidas, inseguranças e diferentes sentimentos. A terapia pode ser um espaço para atravessar esses momentos com mais consciência.",
   },
   {
-    title: "Mudanças e momentos de transição",
-    text: "Términos, mudanças profissionais, novas fases da vida, decisões importantes e outros momentos que podem trazer dúvidas e inseguranças.",
+    title: "Individuação",
+    text: "Um processo de aproximação de quem você realmente é, integrando sua história, suas experiências e as possibilidades de quem você pode se tornar.",
   },
   {
     title: "Desenvolvimento emocional",

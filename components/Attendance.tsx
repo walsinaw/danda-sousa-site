@@ -7,7 +7,7 @@ export default function Attendance() {
       <div className="container">
         <div className={styles.heading}>
           <span className="eyebrow">Atendimento</span>
-          <h2>Como ficar melhor pra você!</h2>
+          <h2>Como você prefere ser atendido(a)?</h2>
         </div>
 
         <div className={styles.grid}>
@@ -24,9 +24,9 @@ export default function Attendance() {
               <span className={styles.tag}>Online</span>
               <h3>Online</h3>
               <p>
-                Sessões realizadas por videochamada, com praticidade e
-                privacidade para que você possa realizar seu acompanhamento
-                de onde estiver.
+                As sessões online são realizadas por Google Meet ou WhatsApp, em um ambiente reservado, confortável e tranquilo. 
+                <br/>
+                Para preservar sua privacidade e aproveitar melhor o momento da sessão, é recomendado estar em um local reservado e, se possível, utilizar fones de ouvido.<br/>
               </p>
             </div>
           </div>
@@ -44,8 +44,7 @@ export default function Attendance() {
               <span className={styles.tag}>Presencial</span>
               <h3>Presencial</h3>
               <p>
-                Atendimento em consultório, em um ambiente reservado e
-                acolhedor.
+                Atendimento presencial em consultório, com duração de 30 ou 50 minutos, realizado semanalmente.
               </p>
             </div>
           </div>

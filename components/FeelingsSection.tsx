@@ -1,14 +1,14 @@
 import styles from "./FeelingsSection.module.css";
 
 const feelings = [
-  "Ansiedade que não parece desligar",
-  "Pensamentos que continuam mesmo quando o dia termina",
-  "Dificuldade para estabelecer limites",
-  "Inseguranças que afetam suas relações",
-  "Cansaço emocional",
-  "Medo de tomar decisões",
-  "Sensação de estar sempre tentando dar conta de tudo",
-  "Ou simplesmente a vontade de se conhecer melhor",
+  "Compreender melhor o que sente",
+  "Olhar para padrões que se repetem na sua vida",
+  "Entender melhor suas relações e experiências",
+  "Encontrar novos significados para momentos difíceis",
+  "Conhecer mais profundamente quem você é",
+  "Ter um espaço para falar e ser escutado(a) com acolhimento",
+  "Compreender sua história com mais cuidado",
+  "Ou simplesmente começar um processo de autoconhecimento",
 ];
 
 export default function FeelingsSection() {
@@ -17,7 +17,7 @@ export default function FeelingsSection() {
       <div className={`container ${styles.wrap}`}>
         <div className={styles.heading}>
           <span className="eyebrow">Identifica-se com algo disso?</span>
-          <h2>Talvez você esteja vivendo...</h2>
+          <h2>Talvez você esteja buscando...</h2>
         </div>
 
         <ul className={styles.list}>

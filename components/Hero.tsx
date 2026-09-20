@@ -8,15 +8,12 @@ export default function Hero() {
           <span className="eyebrow">Psicoterapia online e presencial</span>
           <h1>Um espaço para você se auto conhecer.</h1>
           <p>
-            Nem sempre é fácil entender o que sentimos, muito menos colocar
-            tudo em palavras.
+            Nem sempre é fácil compreender o que sentimos, de onde vêm determinados padrões ou por que algumas experiências continuam fazendo parte da nossa história.
           </p>
           <p>
-            A psicoterapia pode ser um espaço de pausa, acolhimento e
-            reflexão para compreender melhor suas emoções, sua história e a
-            forma como você se relaciona consigo e com o mundo.
+            A psicoterapia pode ser um espaço de escuta, acolhimento e reflexão para olhar para si com mais cuidado e compreender os significados por trás das suas emoções e experiências.
           </p>
-          <span className={styles.cue}>Vamos conversar?</span>
+          <span className={styles.cue}>Se permitir olhar para si também é um primeiro passo.</span>
           <a href="#contato" className="btn btn--primary">
             Agendar atendimento
           </a>

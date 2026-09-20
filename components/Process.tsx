@@ -4,17 +4,17 @@ const steps = [
   {
     number: "01",
     title: "Primeiro contato",
-    text: "Você entra em contato para tirar suas dúvidas e conhecer melhor o funcionamento dos atendimentos.",
+    text: "Entre em contato para tirar suas dúvidas, conhecer o funcionamento dos atendimentos e entender se este é o momento de iniciar seu processo terapêutico.",
   },
   {
     number: "02",
-    title: "Primeira sessão",
-    text: "Um primeiro momento para conversarmos sobre o que trouxe você até aqui e entendermos suas necessidades.",
+    title: "Primeiro encontro",
+    text: "Um primeiro momento para conhecermos melhor sua demanda, sua história e aquilo que trouxe você até a terapia.",
   },
   {
     number: "03",
     title: "Construção do processo",
-    text: "A partir disso, construímos juntos um espaço de acompanhamento, reflexão e cuidado.",
+    text: "A partir dos nossos encontros, construímos um espaço de escuta, reflexão e autoconhecimento, respeitando o seu tempo e a sua individualidade.",
   },
 ];
 
@@ -23,12 +23,9 @@ export default function Process() {
     <section id="processo" className="section">
       <div className="container">
         <div className={styles.heading}>
-          <h2>Seu processo não precisa ser igual ao de ninguém.</h2>
+          <h2>Seu processo é construído no seu tempo</h2>
           <p>
-            A terapia acontece de forma individualizada. Durante as sessões,
-            vamos compreender suas demandas, sua história e os aspectos que
-            estão presentes no momento atual para construir um processo que
-            faça sentido para você.
+            Cada pessoa chega à terapia com uma história e necessidades diferentes. Por isso, o processo é individualizado e construído a partir daquilo que você vive e deseja compreender.
           </p>
         </div>
 

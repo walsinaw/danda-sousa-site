@@ -8,15 +8,11 @@ export default function AboutStatement() {
 
         <p>Cada pessoa chega à terapia com uma história diferente.</p>
         <p>
-          Por isso, o processo terapêutico é construído a partir da sua
-          individualidade, respeitando seu tempo, suas experiências e aquilo
-          que faz sentido para você.
+          Cada pessoa possui uma história, experiências e caminhos diferentes. Por isso, o processo terapêutico é construído respeitando a sua individualidade, o seu momento e o seu próprio tempo.
         </p>
         <p>
-          Meu trabalho é oferecer uma escuta profissional, ética e acolhedora
-          para que você possa olhar para suas experiências com mais clareza e
-          desenvolver novas formas de lidar com aquilo que hoje causa
-          sofrimento.
+          Na terapia, podemos olhar não apenas para aquilo que você vive hoje, mas também para os significados presentes nas suas emoções, experiências e relações.
+          Mais do que encontrar respostas prontas, o processo pode ajudar você a se aproximar de quem realmente é.
         </p>
 
         <p className={styles.quote}>
@@ -24,7 +20,7 @@ export default function AboutStatement() {
           <br />
           Um espaço para compreender.
           <br />
-          Um espaço para você.
+          Um espaço para se conhecer.
         </p>
 
         <a href="#servicos" className="btn btn--outline">
