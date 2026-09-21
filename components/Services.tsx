@@ -3,27 +3,27 @@ import styles from "./Services.module.css";
 const services = [
   {
     title: "Autoconhecimento",
-    text: "Um espaço para compreender melhor quem você é, suas experiências, emoções e a forma como se relaciona consigo mesma.",
+    text: "Um espaço para compreender quem você é, sua história, emoções e aquilo que existe por trás da forma que você se relaciona com si mesma.",
   },
   {
     title: "Emoções",
-    text: "Um olhar cuidadoso para compreender o que suas emoções podem estar expressando e os significados presentes em suas experiências.",
+    text: "Vamos buscar acolher e compreender o que você sente, compreendendo melhor as suas emoções e os seus significados.",
   },
   {
-    title: "História pessoal",
-    text: "Compreender sua história e olhar para suas raízes pode ajudar a perceber aspectos que fazem parte da forma como você vive e se relaciona hoje.",
+    title: "Relações e Vínculos",
+    text: "Ampliar o olhar para os comportamentos presentes em suas relações, reconhecendo seus limites, necessidade e maneiras de conectar com o outro.",
   },
   {
-    title: "Momentos de mudança",
-    text: "Mudanças e novas fases podem despertar dúvidas, inseguranças e diferentes sentimentos. A terapia pode ser um espaço para atravessar esses momentos com mais consciência.",
+    title: "Identidade e Individuação",
+    text: "Explorar quem você é para além de expectativas externas, se aproximando dos diferentes aspectos que você carrega, construindo assim um caminho mais autêntico.",
   },
   {
-    title: "Individuação",
-    text: "Um processo de aproximação de quem você realmente é, integrando sua história, suas experiências e as possibilidades de quem você pode se tornar.",
+    title: "Infância e Desenvolvimento",
+    text: "Um espaço de escuta e acolhimento para que a criança possa se expressar, elaborar e compreender suas emoções por meio de recursos lúdicos",
   },
   {
-    title: "Desenvolvimento emocional",
-    text: "Um processo para compreender suas emoções, comportamentos e escolhas com mais consciência.",
+    title: "Conflitos Internos e Mudanças",
+    text: "Atravessar momentos de transformação e novas fases da vida, compreendendo comportamentos, sentimentos e situações  que possam se repetir, investigando suas raízes.",
   },
 ];
 

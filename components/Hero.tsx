@@ -6,14 +6,14 @@ export default function Hero() {
       <div className={`container ${styles.grid}`}>
         <div className={styles.copy}>
           <span className="eyebrow">Psicoterapia online e presencial</span>
-          <h1>Um espaço para você se auto conhecer.</h1>
+          <h1>Um espaço para você se autoconhecer.</h1>
           <p>
-            Nem sempre é fácil compreender o que sentimos, de onde vêm determinados padrões ou por que algumas experiências continuam fazendo parte da nossa história.
+            A psicoterapia pode ser um espaço para olhar para si com mais profundidade, acolher aquilo que emerge e compreender os significados que existem por trás das suas experiências. Na perspectiva da Psicologia Analítica, buscamos também olhar para a própria história e para os conteúdos que habitam o inconsciente, reconhecendo como eles podem atravessar nossas escolhas, relações e a maneira como nos percebemos.
           </p>
           <p>
-            A psicoterapia pode ser um espaço de escuta, acolhimento e reflexão para olhar para si com mais cuidado e compreender os significados por trás das suas emoções e experiências.
+            Mais do que buscar respostas prontas, o processo terapêutico pode ser um caminho de encontro consigo mesmo — de compreender, elaborar e, aos poucos, construir uma relação mais consciente com quem você é.
           </p>
-          <span className={styles.cue}>Se permitir olhar para si também é um primeiro passo.</span>
+          <span className={styles.cue}>Se permita olhar para si.</span>
           <a href="#contato" className="btn btn--primary">
             Agendar atendimento
           </a>

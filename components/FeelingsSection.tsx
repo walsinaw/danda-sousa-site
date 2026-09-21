@@ -1,14 +1,12 @@
 import styles from "./FeelingsSection.module.css";
 
 const feelings = [
-  "Compreender melhor o que sente",
-  "Olhar para padrões que se repetem na sua vida",
-  "Entender melhor suas relações e experiências",
-  "Encontrar novos significados para momentos difíceis",
-  "Conhecer mais profundamente quem você é",
-  "Ter um espaço para falar e ser escutado(a) com acolhimento",
-  "Compreender sua história com mais cuidado",
-  "Ou simplesmente começar um processo de autoconhecimento",
+  "Entender melhor seus sentimentos e comportamentos",
+  "Continuar seu processo de individuação",
+  "Aprender a escolher o que você sente",
+  "Compreender vínculos que parecem ser difíceis",
+  "Se permitir mudar",
+  "Falar e ser escutado com acolhimento",
 ];
 
 export default function FeelingsSection() {
