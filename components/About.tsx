@@ -27,9 +27,6 @@ export default function About() {
           <p>
             A Psicologia Analítica, também conhecida como Psicologia Junguiana, busca compreender não apenas o que vivemos no presente, mas também os significados por trás das nossas experiências e emoções.
           </p>
-          <p>
-            A Psicologia Analítica, também conhecida como Psicologia Junguiana, busca compreender não apenas o que vivemos no presente, mas também os significados por trás das nossas experiências e emoções.
-          </p>
           <p>E, é claro, sou humana assim como você. Por isso, também busco trazer leveza para as nossas sessões. Acredito que a terapia pode ser um espaço de profundidade, mas também de acolhimento, espontaneidade e, quando fizer sentido, até de algumas risadas no caminho.</p>
 
           <span className={styles.crp}>CRP 05/84568</span>
