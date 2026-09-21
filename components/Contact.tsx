@@ -9,8 +9,9 @@ export default function Contact() {
           <h2>Vamos conversar?</h2>
           <p>
             Se você ainda tem dúvidas sobre a terapia ou gostaria de entender
-            como funciona o atendimento, entre em contato. Será um prazer
-            conversar com você.
+            como funciona o atendimento, entre em contato.
+            <br />
+            Será um prazer conversar com você!
           </p>
         </div>
 
