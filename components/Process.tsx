@@ -4,12 +4,12 @@ const steps = [
   {
     number: "01",
     title: "Primeiro contato",
-    text: "Entre em contato para tirar suas dúvidas, conhecer o funcionamento dos atendimentos e entender se este é o momento de iniciar seu processo terapêutico.",
+    text: "Esse passo é simples: vamos conversar. Aqui é o momento para tirar suas dúvidas e conhecer um pouco mais sobre a abordagem, atendimento, valores e sessões. ",
   },
   {
     number: "02",
     title: "Primeiro encontro",
-    text: "Um primeiro momento para conhecermos melhor sua demanda, sua história e aquilo que trouxe você até a terapia.",
+    text: "Após o agendamento, teremos nosso primeiro encontro, seja online ou presencial. Aqui será o primeiro momento para conhecermos melhor sua demanda, sua história e aquilo que trouxe você até a terapia.",
   },
   {
     number: "03",

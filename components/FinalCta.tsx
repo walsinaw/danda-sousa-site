@@ -10,7 +10,7 @@ export default function FinalCta() {
           Você não precisa ter todas as respostas para começar.
 
           <br/>
-          Se existe algo que você deseja compreender melhor, se há experiências que continuam fazendo parte da sua história ou simplesmente sente vontade de se conhecer mais profundamente, a terapia pode ser um espaço para esse processo.
+          A terapia pode ser um espaço para olhar para tudo isso com mais profundidade, escutar o que emerge e compreender seu auto conhecimento.
         </p>
         <p style={{ fontWeight: 500, opacity: 1, marginBottom: 30 }}>
           Será um prazer caminhar com você.

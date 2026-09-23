@@ -14,7 +14,7 @@ export default function Attendance() {
           <div className={styles.card}>
             <div className={`${styles.photo} ${styles.image}`}>
               <Image
-                src="/images/online.jpg"
+                src="/images/online.jpeg"
                 alt="Atendimento online"
                 fill
                 style={{ objectFit: "cover" }}
@@ -22,11 +22,9 @@ export default function Attendance() {
             </div>
             <div className={styles.cardBody}>
               <span className={styles.tag}>Online</span>
-              <h3>Online</h3>
+              <h3>Online Particular</h3>
               <p>
-                As sessões online são realizadas por Google Meet ou WhatsApp, em um ambiente reservado, confortável e tranquilo. 
-                <br/>
-                Para preservar sua privacidade e aproveitar melhor o momento da sessão, é recomendado estar em um local reservado e, se possível, utilizar fones de ouvido.<br/>
+                As sessões online são realizadas por Google Meet ou WhatsApp, em um ambiente reservado, confortável e tranquilo. Com duração de 30 ou 50 minutos.
               </p>
             </div>
           </div>
@@ -42,9 +40,29 @@ export default function Attendance() {
             </div>
             <div className={styles.cardBody}>
               <span className={styles.tag}>Presencial</span>
-              <h3>Presencial</h3>
+              <h3>Presencial Particular</h3>
               <p>
-                Atendimento presencial em consultório, com duração de 30 ou 50 minutos, realizado semanalmente.
+                Atendimento presencial em consultório, com duração de 30 ou 50 minutos.
+              </p>
+            </div>
+          </div>
+
+          <div className={styles.card}>
+            <div className={`${styles.photo} ${styles.image}`}>
+              <Image
+                src="/images/infantil.png"
+                alt="Atendimento presencial infantil e TEA"
+                fill
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+            <div className={styles.cardBody}>
+              <span className={styles.tag}>Presencial</span>
+              <h3>Presencial Convênio</h3>
+              <p>
+                Atendimentos voltados ao público infantil e de
+                pessoas no Transtorno do Espectro Autista (TEA). Os
+                atendimentos são realizados por meio de planos de saúde conveniados.
               </p>
             </div>
           </div>

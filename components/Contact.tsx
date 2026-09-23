@@ -8,10 +8,9 @@ export default function Contact() {
           <span className="eyebrow">Contato</span>
           <h2>Vamos conversar?</h2>
           <p>
-            Se você ainda tem dúvidas sobre a terapia ou gostaria de entender
-            como funciona o atendimento, entre em contato.
+            Se você ainda tem dúvidas sobre a terapia ou gostaria de entender como funciona o atendimento, entre em contato.
             <br />
-            Será um prazer conversar com você!
+            Estou à disposição para dúvidas e agendamentos!
           </p>
         </div>
 
