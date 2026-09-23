@@ -19,7 +19,7 @@ export default function Contact() {
             <span className="eyebrow" style={{ marginBottom: 4 }}>
               Telefone / WhatsApp
             </span>
-            <a href="https://wa.link/xdnsn8" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.link/0rxqjd" target="_blank" rel="noopener noreferrer">
               (22) 99846-7628
             </a>
           </div>
@@ -41,7 +41,7 @@ export default function Contact() {
 
           <div style={{ height: 34 }} />
 
-          <a href="https://wa.link/xdnsn8" className="btn btn--primary">
+          <a href="https://wa.link/0rxqjd" className="btn btn--primary">
             Agendar atendimento
           </a>
         </div>
