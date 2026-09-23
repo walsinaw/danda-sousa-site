@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.wrap h2 {
+  margin-bottom: 28px;
+}
+
 .wrap p {
   opacity: 0.85;
   margin-bottom: 18px;
